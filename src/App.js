@@ -2,6 +2,9 @@ import Category from "./components/Category";
 import Pages from "./pages/Pages";
 import{BrowserRouter as Router} from 'react-router-dom'
 import Search from "./components/Search";
+import Veggies from "./components/Veggies";
+import Popular from "./components/Popular";
+
 
 
 

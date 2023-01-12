@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { FaSearch } from 'react-icons/fa'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { NavLink } from 'react-router-dom'
 
 
 function Search() {
@@ -28,16 +27,7 @@ function Search() {
             </Form>
           )
 
-//   return (
-//     <Form onSubmit={submitHandler}>
-//         <div>
-//             <FaSearch></FaSearch>
-//             <input  onChange={(e)=>setInput(e.target.value)} 
-//             type="text" 
-//             value={input} />
-//         </div>
-//     </Form>
-//   )
+
 }
 
 const Form = styled.form`

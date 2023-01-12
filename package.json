@@ -2,6 +2,7 @@
   "name": "delicious_recipes",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://AnjuSunny96.github.io/Delicious_Recipes",
   "dependencies": {
     "@splidejs/react-splide": "^0.7.12",
     "@testing-library/jest-dom": "^5.16.5",
@@ -22,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "preload":"npm run build",
+    "predeploy":"npm run build",
     "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
